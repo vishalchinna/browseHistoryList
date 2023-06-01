@@ -1,0 +1,30 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.h-List {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 20px;
+}
+.time {
+  font-size: 10px;
+  font-weight: bold;
+}
+.title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.url {
+  font-size: 14px;
+  color: #64748b;
+  padding-left: 15px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+}

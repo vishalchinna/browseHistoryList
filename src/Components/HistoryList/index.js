@@ -1,10 +1,18 @@
 import './index.css'
 
 const BrowseHistoryList = props => {
-  const {historyList, deleteHistory, Key} = props
-  const {timeAccessed, logoUrl, title, domainUrl} = historyList
+  const {historyList, deleteHistory} = props
+  const {timeAccessed, logoUrl, title, domainUrl, id} = historyList
   const goToDeleteBar = () => {
-    deleteHistory(Key)
+    deleteHistory(id)
+  }
+
+  if (id === 'undefined') {
+    return (
+      <li>
+        <p>hrhtiusrh</p>
+      </li>
+    )
   }
   return (
     <li>
